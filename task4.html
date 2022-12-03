@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="board.css">
+     <script src="board.js"></script>
+
+</head>
+<body bgcolor="#faebd7">
+
+
+
+<svg class="game" id="gemu"
+     xmlns="http://www.w3.org/2000/svg">
+
+    <rect onmouseup="check()" onclick="clicker([1,1])" class="block" id="1"/>
+    <rect onmouseup="check()" onclick="clicker([2,1])" class="block" x="33%"/>
+    <rect onmouseup="check()" onclick="clicker([3,1])" class="block" x="66%"/>
+    <rect onmouseup="check()" onclick="clicker([1,2])" class="block" y="33%"/>
+    <rect onmouseup="check()" onclick="clicker([2,2])" class="block" x="33%" y="33%"/>
+    <rect onmouseup="check()" onclick="clicker([3,2])" class="block" x="66%" y="33%"/>
+    <rect onmouseup="check()" onclick="clicker([1,3])" class="block" y="66%"/>
+    <rect onmouseup="check()" onclick="clicker([2,3])" class="block" x="33%" y="66%"/>
+    <rect onmouseup="check()" onclick="clicker([3,3])" class="block" x="66%" y="66%"/>
+
+
+</svg>
+
+</body>
+</html>

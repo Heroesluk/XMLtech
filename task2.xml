@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="task2.css"?>
+
+<car_auction_house>
+    <sellers>
+        <seller idSeller="A1">
+            <name>Artur Denderski</name>
+            <date_of_birth>02.04.1992</date_of_birth>
+            <nationality phone_prefix="57">Chinese</nationality>
+            <phone_number>570931861</phone_number>
+        </seller>
+
+        <seller idSeller="A2">
+            <name>Łukasz Racławski</name>
+            <date_of_birth>02.04.1981</date_of_birth>
+            <nationality phone_prefix="48">Polish</nationality>
+            <phone_number>997998991</phone_number>
+
+        </seller>
+
+        <seller idSeller="A3">
+            <name>Łukasz Racławski</name>
+            <date_of_birth>08.09.1999</date_of_birth>
+            <nationality phone_prefix="48">Polish</nationality>
+            <phone_number>997998991</phone_number>
+
+        </seller>
+
+        <seller idSeller="A4">
+            <name>Antonina Gorzyńska</name>
+            <date_of_birth>02.04.2003</date_of_birth>
+            <nationality phone_prefix="48">Polish</nationality>
+            <phone_number>997998991</phone_number>
+
+        </seller>
+
+        <seller idSeller="A5">
+            <name>Mikołaj Zeglarz</name>
+            <date_of_birth>01.01.1969</date_of_birth>
+            <nationality phone_prefix="48">Polish</nationality>
+            <phone_number>997998991</phone_number>
+
+        </seller>
+
+        <seller idSeller="A6">
+            <name>Jakub Kowalski</name>
+            <date_of_birth>21.06.1910</date_of_birth>
+            <nationality phone_prefix="48">Polish</nationality>
+            <phone_number>997998991</phone_number>
+
+        </seller>
+
+    </sellers>
+
+    <cars>
+        <car idCar="B1" idSeller="A1">
+            <vin>5NPE34AF0FH051551</vin>
+            <brand>Volswagen</brand>
+            <model generation="5">Passat</model>
+            <color>white</color>
+            <year>2005</year>
+            <price>12000</price>
+            <equipment_level level="high">
+                <accesories>A/C</accesories>
+                <accesories>ABS</accesories>
+                <accesories>Power steering</accesories>
+            </equipment_level>
+
+        </car>
+        <car idCar="B2" idSeller="A1">
+            <vin>WDBUF87X88B209342</vin>
+            <brand>Toyota</brand>
+            <model generation="2">Corolla</model>
+            <color>red</color>
+            <year>1990</year>
+            <price>3600</price>
+            <equipment_level level="high">
+
+                <accesories>Power window</accesories>
+                <accesories>ABS</accesories>
+                <accesories>Navigation</accesories>
+            </equipment_level>
+
+        </car>
+        <car idCar="B3" idSeller="A1">
+            <vin>1111123411131111321</vin>
+            <brand>Ford</brand>
+            <model generation="5">Mondeo</model>
+            <color>yellow</color>
+            <year>2010</year>
+            <price>55000</price>
+            <equipment_level level="high">
+                <accesories>Traction Control</accesories>
+                <accesories>ABS</accesories>
+                <accesories></accesories>
+            </equipment_level>
+
+        </car>
+
+        <car idCar="B4" idSeller="A2">
+            <vin>JTHBA30G155026524</vin>
+            <brand>Mazda</brand>
+            <model generation="2">Rx7</model>
+            <color>red</color>
+            <year>2005</year>
+            <price>12000</price>
+            <equipment_level level="medium">
+                <accesories>Traction Control</accesories>
+                <accesories>ABS</accesories>
+                <accesories>Sport wheel</accesories>
+                <accesories>Power Steering</accesories>
+            </equipment_level>
+
+        </car>
+
+        <car idCar="B5" idSeller="A4">
+            <vin>1D7RV1GP0BS515319</vin>
+            <brand>BMW</brand>
+            <model generation="1">I3</model>
+            <color>pink</color>
+            <year>2020</year>
+            <price>565000</price>
+            <equipment_level level="high">
+                <accesories>Traction Control</accesories>
+                <accesories>ABS</accesories>
+                <accesories>Airbab</accesories>
+                <accesories>Tinted Glass</accesories>
+            </equipment_level>
+
+        </car>
+
+
+        <car idCar="B6" idSeller="A1">
+            <vin>JHMBB6240WC077219</vin>
+            <brand>Ford</brand>
+            <model generation="5">Mondeo</model>
+            <color>yellow</color>
+            <year>2010</year>
+            <price>55000</price>
+            <equipment_level level="high">
+                <accesories>Traction Control</accesories>
+                <accesories>ABS</accesories>
+                <accesories></accesories>
+            </equipment_level>
+
+        </car>
+
+        <car idCar="B7" idSeller="A2">
+            <vin>1FDKF37GXVEB62042</vin>
+            <brand>Nissan</brand>
+            <model generation="3">Altima</model>
+            <color>green</color>
+            <year>2007</year>
+            <price>15000</price>
+            <equipment_level level="low">
+                <accesories>Traction Control</accesories>
+                <accesories>ABS</accesories>
+            </equipment_level>
+
+        </car>
+        <car idCar="B8" idSeller="A1">
+            <vin>3GNAL3E52CS696947</vin>
+            <brand>Volvo</brand>
+            <model generation="1">V40</model>
+            <color>silver</color>
+            <year>2007</year>
+            <price>35000</price>
+            <equipment_level level="high">
+                <accesories>Traction Control</accesories>
+                <accesories>ABS</accesories>
+                <accesories>Rear Window Defroster</accesories>
+            </equipment_level>
+
+        </car>
+
+        <car idCar="B9" idSeller="A4">
+            <vin>WVWBB7AJ0CW294276</vin>
+            <brand>Citroen</brand>
+            <model generation="2">C3</model>
+            <color>red</color>
+            <year>2010</year>
+            <price>23200</price>
+            <equipment_level level="medium">
+                <accesories>ABS</accesories>
+                <accesories>Power Door Locks</accesories>
+            </equipment_level>
+        </car>
+        <car idCar="B10" idSeller="A2">
+            <vin>1GKER13738J333118</vin>
+            <brand>Ford</brand>
+            <model generation="2">Transit</model>
+            <color>white</color>
+            <year>1999</year>
+            <price>12000</price>
+            <equipment_level level="low">
+                <accesories>ABS</accesories>
+            </equipment_level>
+
+        </car>
+        <car idCar="B11" idSeller="A1">
+            <vin>1G4PP5SK2E4215204</vin>
+            <brand>Toyota</brand>
+            <model generation="11">Corolla</model>
+            <color>black</color>
+            <year>2010</year>
+            <price>55000</price>
+            <equipment_level level="low">
+                <accesories>Traction Control</accesories>
+                <accesories>ABS</accesories>
+            </equipment_level>
+
+        </car>
+
+        <car idCar="B12" idSeller="A2">
+            <vin>1N4AL11E32C231932</vin>
+            <brand>Ford</brand>
+            <model generation="5">Mondeo</model>
+            <color>yellow</color>
+            <year>2010</year>
+            <price>55000</price>
+            <equipment_level level="high">
+                <accesories>Traction Control</accesories>
+                <accesories>ABS</accesories>
+                <accesories></accesories>
+            </equipment_level>
+
+        </car>
+        <car idCar="B13" idSeller="A3">
+            <vin>5XYZU3LB8EG182574</vin>
+            <brand>Audi</brand>
+            <model generation="2">A8</model>
+            <color>blue</color>
+            <year>2007</year>
+            <price>21000</price>
+            <equipment_level level="high">
+                <accesories>Traction Control</accesories>
+                <accesories>ABS</accesories>
+                <accesories>Remote Keyless Entry</accesories>
+                <accesories>Power Window</accesories>
+            </equipment_level>
+
+        </car>
+        <car idCar="B14" idSeller="A1">
+            <vin>1111123411131111321</vin>
+            <brand>Mercedes</brand>
+            <model generation="1">W124</model>
+            <color>silver</color>
+            <year>2010</year>
+            <price>55000</price>
+            <equipment_level level="high">
+                <accesories>Traction Control</accesories>
+                <accesories>ABS</accesories>
+                <accesories>Power Window</accesories>
+                <accesories>Navigation System</accesories>
+            </equipment_level>
+
+        </car>
+
+    </cars>
+</car_auction_house>

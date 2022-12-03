@@ -1,0 +1,52 @@
+html,
+body {
+    height: 100%;
+}
+
+.game {
+    width: 900px;
+    height: 900px;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+.choice_menu{
+    width: 900px;
+    height: 150px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 3%;
+    display: flex;
+}
+.choice_block{
+    fill: #FF5A1D;
+    height: 75%;
+    width: 14%;
+}
+.choice_block:hover{
+    fill: #ab380e;
+}
+
+
+.block {
+    width: 13%;
+    height: 13%;
+    fill: coral;
+
+}
+
+.block:hover {
+    fill: #ED5D28;
+
+}
+
+.works  {
+    fill: crimson;
+}
+
+
+
+
+
+

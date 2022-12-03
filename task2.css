@@ -1,0 +1,75 @@
+
+car_auction_house {
+    background-color: #e2ecf0;
+    width: 100%;
+}
+
+sellers {
+    font-size: 40px;
+}
+
+seller {
+    margin: 0 0.8em 0 0;
+}
+
+seller:hover {
+    font-weight: bolder;
+}
+
+date_of_birth, phone_number {
+    background-color: #B6C1C4FF;
+}
+
+cars {
+    font-size: 40px;
+}
+
+car {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: #92989b;
+    border-style: solid;
+    font-size: 25px;
+    margin: 0 1em 1em 1em
+}
+
+car:hover {
+    border: black;
+    border-style: solid;
+    border-width: thick;
+}
+
+vin, brand, model, color, year, price {
+    width: 15%;
+}
+
+
+model, brand {
+    font-weight: bold;
+}
+
+equipment_level {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    background-color: #B6C1C4FF;
+    width: 100%;
+}
+
+seller {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+name, date_of_birth, nationality, phone_number {
+    flex-basis: 25%;
+    text-align: center;
+}
+
+
+
+

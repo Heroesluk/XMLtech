@@ -1,0 +1,6 @@
+#1. board XtimesY size, each number represent color of crystal
+#2. function that on call checks whether there's a 3 in the board, from up left to down, if there's, return True
+#3. If returned true try to call function again, untill it returns false
+#4. Funtion to drag row/columns in the board
+#5. Function that creates at "empty" spaced, from which diamonds were dragged away, a new random color diamont
+

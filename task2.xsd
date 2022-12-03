@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="car_auction_house">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="sellers"/>
+                <xs:element ref="cars"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="sellers">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="seller"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="seller">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="name"/>
+                <xs:element ref="date_of_birth"/>
+                <xs:element ref="nationality"/>
+                <xs:element ref="phone_number"/>
+            </xs:sequence>
+            <xs:attribute name="idSeller" use="required" type="xs:NCName"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="name" type="xs:string"/>
+    <xs:element name="date_of_birth" type="xs:NMTOKEN"/>
+    <xs:element name="nationality">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:NCName">
+                    <xs:attribute name="phone_prefix" use="required" type="xs:integer"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="phone_number" type="xs:integer"/>
+    <xs:element name="cars">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="car"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="car">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="vin"/>
+                <xs:element ref="brand"/>
+                <xs:element ref="model"/>
+                <xs:element ref="color"/>
+                <xs:element ref="year"/>
+                <xs:element ref="price"/>
+                <xs:element ref="equipment_level"/>
+            </xs:sequence>
+            <xs:attribute name="idCar" use="required" type="xs:NCName"/>
+            <xs:attribute name="idSeller" use="required" type="xs:NCName"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="vin" type="xs:NMTOKEN"/>
+    <xs:element name="brand" type="xs:NCName"/>
+    <xs:element name="model">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:NCName">
+                    <xs:attribute name="generation" use="required" type="xs:integer"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="color" type="xs:NCName"/>
+    <xs:element name="year">
+        <xs:simpleType>
+            <xs:restriction base="xs:integer">
+                <xs:minInclusive value="1900"/>
+                <xs:maxInclusive value="2030"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="price">
+        <xs:simpleType>
+            <xs:restriction base="xs:integer">
+                <xs:minInclusive value="0"/>
+                <xs:maxInclusive value="10000000"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="equipment_level">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="20" ref="accesories"/>
+            </xs:sequence>
+            <xs:attribute name="level" use="required" type="xs:NCName"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="accesories" type="xs:string"/>
+</xs:schema>

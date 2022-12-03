@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<car_auction_house>
+  <sellers>
+    <seller idSeller="A1">
+    <name>Artur Denderski</name>
+    <date_of_birth>02.04.1992</date_of_birth>
+    <nationality>Chinese</nationality>
+    </seller>
+  </sellers>
+  <cars>
+    <car idCar="B1" idSeller="A1">
+      <brand>Volswagen</brand>
+      <model>Passat</model>
+      <generation>5 </generation>
+      <color>white</color>
+      <accesories>A/C</accesories>
+      <accesories>ABS</accesories>
+      <accesories>Power steering</accesories>
+      <equipment_level level="high"></equipment_level>
+      <year>2005</year>
+      <price>12000</price>
+    </car>
+    <car idCar="B2" idSeller="A1">
+      <brand>Toyota</brand>
+      <model generation="2">Corolla</model>
+      <color>red</color>
+      <accesories>Power window</accesories>
+      <accesories>ABS</accesories>
+      <accesories>Navigation</accesories>
+      <equipment_level level="low"></equipment_level>
+      <year>1990</year>
+      <price>3600</price>
+    </car>
+    <car idCar="B3" idSeller="A1">
+      <brand>Ford</brand>
+      <model generation="5">Mondeo</model>
+      <color>yellow</color>
+      <accesories>Traction control</accesories>
+      <accesories>ABS</accesories>
+      <accesories>Navigation</accesories>
+      <year>2010</year>
+      <price>55000</price>
+    </car>
+  </cars>
+</car_auction_house>
